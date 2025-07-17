@@ -65,24 +65,24 @@ html, body {
     height: 150px;
     width: 150px;
     position: absolute;
-    top: 35%;
-    left: 60%;
+    top: 36%;
+    left: 61%;
 }
 
 /* City and Country */
 #weatherCountry {
     font-size: 40px;
     position: absolute;
-    top: 37%;
-    left: 38%;
+    top: 40%;
+    left: 33%;
 }
 
 /* Temperature Display */
 #temperature {
     font-size: 45px;
     position: absolute;
-    top: 45%;
-    left: 38%;
+    top: 48%;
+    left: 35%;
 }
 
 #temperature b {
@@ -101,8 +101,8 @@ html, body {
 /* List Data (Feels Like, Humidity, etc.) */
 #container ul {
     position: absolute;
-    bottom: 11%;
-    right: 60%;
+    bottom: 8%;
+    right: 58%;
 }
 
 #container ul li {
@@ -111,21 +111,21 @@ html, body {
     list-style-type: none;
 }
 
-/* Feature Box */
+
 .flex {
     background: #4c61cd;
     color: white;
     padding: 2em;
     border-radius: 30px;
-    width: 90%;
-    max-width: 700px;
-    height: 30rem;
+    width: 70%;
+    max-width: 600px;
+    height: 21rem;
     margin-top: 10rem;
     display: flex;
     justify-content: center;
 }
 
-/* Custom font heading */
+
 .h1 {
     margin-left: 28rem;
     margin-top: 25rem;
