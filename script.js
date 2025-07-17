@@ -17,7 +17,6 @@ check.addEventListener("click", () => {
     fetch(url).then(response => {
         return response.json();
     }).then(data => {
-        
         console.log(data);
         weatherCountry.innerText = `${data.name} / ${data.sys.country}`;
         temperature.innerHTML = `${data.main.temp}°<b>C</b>`;
