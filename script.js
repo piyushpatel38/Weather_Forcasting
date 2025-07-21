@@ -42,8 +42,8 @@ console.log(data);
             }
         })
 
+       
         feelsLike.innerText = `Feels Like ${data.main.feels_like}°C`;
-        
         humidity.innerText = `Humidity ${data.main.humidity}`;
         latitude.innerText = `Latitude ${data.coord.lat}`;
         longitude.innerText = `Latitude ${data.coord.lon}`;
